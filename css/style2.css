@@ -1,0 +1,197 @@
+body {
+	background-color: rgba(255,255,255,1);
+	font-family: serif;
+	padding: 0;
+	margin: 0;
+}
+#topImg {
+	width: 50%;
+	margin: 0 auto;
+}
+
+#topImg img {
+	width: 100%;
+}
+h1 {
+	text-align: center;
+	font-size: 450%;
+	padding: 8% 0;
+	margin: 0;
+	letter-spacing: 3px;
+	color: #000;
+	line-height: 3px;
+}
+h2 {
+	text-align: center;
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+.clicks {
+	font-size: 18px;
+}
+#sub {
+	position: absolute;
+	top: 25%;
+	left: 37%;
+	width: 44%;
+}
+#subtitle {
+	position: absolute;
+	top: 20%;
+	left: 53%;
+	width: 38%;
+}
+#dir {
+	text-align: center;
+	font-size: 34px;
+}
+.draggable {
+	width: 12%;
+	float: left;
+}
+.c {
+	width: 100%;
+	float: left;
+}
+.cc {
+	width: 100%;
+	float: left;
+	margin-left: 10%;
+}
+.can {
+	width: 80%;
+	height: 25px;
+	padding: 0;
+	margin: 0% 10% 0 10%;
+}
+img {
+	width: 100%;
+}
+#btnSave { 
+	margin: 0 0 3% 3%;
+	padding: 1%;
+	text-align: center;
+	background-color: #fff;
+	color: #000;
+	font-size: 90%;
+	border-color: #000;
+	border-style: solid;
+	border-width: 0.5px;
+	border-radius: 5px;
+	display: inline-block;
+}
+#btnSave:hover {
+	background-color: rgba(0,0,0,0.1);
+	cursor: pointer;
+}
+#clear {
+	margin: 1% 2% 1% 2%;
+	display: inline-block;
+	width: 5%;
+	padding: 1%;
+	text-align: center;
+	background-color: #fff;
+	color: #000;
+	border-radius: 8%;
+	text-decoration: none;	
+}
+.output p {
+	position: absolute;
+	top: 5%;
+	left: 39%;
+	font-size: 11px;
+	font-family: sans-serif;
+	color: #000;
+}
+.hidden{
+	display: none;
+	width: 50%;
+	margin: 0 25% 25% 25%;
+	text-align: center;
+	border-color: #000;
+	border-width: 0.25px;
+	border-style: solid;
+}
+#thx{
+	padding: 25% 5% 25% 5%;
+}
+#thought {
+	width: 20%;
+}
+#speach {
+	width: 20%;
+}
+#bb {
+	width: 15%;
+}
+#boyz {
+	width: 18%;
+}
+#dino {
+	width: 15%;
+}
+#ice {
+	width: 8%;
+}
+#tnt {
+	width: 8%;
+}
+/* Large desktops and laptops */
+@media (max-width: 1800px) {
+	#dir {
+		font-size: 20px;
+	}
+	#clear {
+		font-size: 200%;
+	}
+}
+@media (max-width: 1024px) {
+	.clicks {
+		font-size: 14px;
+	}
+	#sub {
+		top: 25%;
+	}
+	#subtitle {
+		top: 20%;
+	}
+}
+@media (max-width: 768px) {
+	.clicks {
+		font-size: 8px;
+	}
+	#sub {
+		top: 25%;
+	}
+	#subtitle {
+		top: 25%;
+	}
+}
+@media (max-width: 425px) {
+	.clicks {
+		font-size: 8px;
+	}
+	#sub {
+		top: 25%;
+	}
+	#subtitle {
+		top: 12%;
+	}
+}
+@media (max-width: 375px) {
+	.clicks {
+		font-size: 7px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
